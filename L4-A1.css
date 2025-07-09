@@ -36,6 +36,12 @@ body {
     font-size: 15px;
 }
 
+.operator:hover,
+.number:hover,
+.empty:hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.726)
+}
+
 .number,
 .empty {
     background-color: #6fe0a0;
